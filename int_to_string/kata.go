@@ -1,9 +1,9 @@
 package kata
 
 import (
-  "strconv"
+    "strconv"
 )
 
 func NumberToString(n int) string {
-  return strconv.Itoa(n)
+    return strconv.Itoa(n)
 }
