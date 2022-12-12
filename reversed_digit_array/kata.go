@@ -1,4 +1,6 @@
-package kata
+package main
+
+import "fmt"
 
 func Digitize(n int) []int {
 	var r []int
@@ -9,4 +11,9 @@ func Digitize(n int) []int {
 			return r
 		}
 	}
+}
+
+func main() {
+	res := Digitize(34567)
+	fmt.Println(res)
 }
