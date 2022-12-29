@@ -15,19 +15,19 @@ func ReverseWords(str string) string {
 	var current_word string
 	var result string
 
-	rune_slice := []rune(str)
-	l := len(rune_slice)
+	rune_array := []rune(str)
+	l := len(rune_array)
 	i := 0
 	
 	for i < l {
-		if rune_slice[i] == ' ' {
+		if rune_array[i] == ' ' {
 			if current_word != "" {
 				result += Backwards(current_word)
 				current_word = ""
 			}
 			result += " "
 		} else {
-			current_word += string(rune_slice[i])
+			current_word += string(rune_array[i])
 		}
 		i++	
 	}
