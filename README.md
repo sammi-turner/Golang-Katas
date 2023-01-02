@@ -1,3 +1,3 @@
 # Golang Katas
 
-Solutions to assorted problems in Codewars.
+Solutions to assorted Codewars problems.
